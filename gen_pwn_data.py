@@ -50,7 +50,7 @@ def random_time():
 
 def random_agent():
     """
-    :return:
+    :return: random agent name
     """
     agents = ["molevar", "CS", "meterpreter", "pam_bd", "reptile", "poshc2", "merlin"]
     random.shuffle(agents)
@@ -58,6 +58,9 @@ def random_agent():
 
 
 def get_user():
+    """
+    :return random user for graphs
+    """
     users = ["user_1", "user_2", "user_3", "user_4", "user_5"]
     random.shuffle(users)
     return users[0]
