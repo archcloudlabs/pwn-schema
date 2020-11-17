@@ -19,8 +19,7 @@ docker-compose up -d
 3. Access Kibana locally (http://localhost:5601)
 
 4. Add mapping to PWN interface
-
-5. Use dev tools or the bash script
+* Use dev tools or the bash script.
 
 
 ### Ingest Fake Data
@@ -30,3 +29,4 @@ pip3 install -r requirements.txt
 ```
 
 1. python3 gen_pwn_data.py
+*This runs in an infinite loop to populate data between November 13th and November 15th*
