@@ -36,10 +36,10 @@ docker-compose up -d
 ### Ingest Fake Data
 0. install requirements.txt
 ```
-pip3 install -r requirements.txt
+pip3 install -r ./schema-tools/requirements.txt
 ```
 
-1. python3 gen_pwn_data.py
+1. python3 ./schema-tools/gen_pwn_data.py
 *This runs in an infinite loop to populate data between November 13th and November 15th*
 
 
